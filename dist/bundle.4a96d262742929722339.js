@@ -1,0 +1,1 @@
+(()=>{"use strict";function e(e){e.forEach((function(t){t.addEventListener("click",(function(){for(var c=0;c<e.length;c++)e[c].classList.remove("active");t.classList.add("active")}))}))}var t=document.querySelectorAll(".nav--primary li"),c=document.querySelectorAll(".msg-menu ul li");e(t),e(c)})();
