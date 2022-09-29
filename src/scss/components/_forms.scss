@@ -1,0 +1,12 @@
+@use "../utilities/" as *;
+
+.form--lg{
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid $steel-gray;
+    padding: 7px 10px 7px 30px;
+    transition: 0.3s;
+    &:focus{
+        outline: 1px solid $grayish;
+    }
+}

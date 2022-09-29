@@ -1,0 +1,72 @@
+@use './color' as *;
+
+.personal{
+    .filter{
+        background-color: $personal;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .box-filter{
+        width: 13px;
+        height: 13px;
+        border: 3px solid $personal;
+        border-radius: 3px;
+    }
+}
+.clients{
+    .filter{
+        background-color: $clients;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .box-filter{
+        width: 13px;
+        height: 13px;
+        border: 3px solid $clients;
+        border-radius: 3px;
+    }
+}
+.family{
+    .filter{
+        background-color: $family;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .box-filter{
+        width: 13px;
+        height: 13px;
+        border: 3px solid $family;
+        border-radius: 3px;
+    }
+}
+.friends{
+    .filter{
+        background-color: $friends;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .box-filter{
+        width: 13px;
+        height: 13px;
+        border: 3px solid $friends;
+        border-radius: 3px;
+    }
+}
+.archives{
+    .filter{
+        background-color: $arch;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .box-filter{
+        width: 13px;
+        height: 13px;
+        border: 3px solid $arch;
+        border-radius: 3px;
+    }
+}

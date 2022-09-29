@@ -1,0 +1,46 @@
+@import './base/';
+//utils and components
+@import './utilities/';
+@import './components/';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+//scrolbar
+@supports (scrollbar-color: red blue){
+    *{
+        scrollbar-width: thin;
+        scrollbar-color: $light-gray transparent;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 0.3em;
+}
+::-webkit-scrollbar-thumb{
+    background-color: $light-gray;
+    border-radius: 100px;
+    &:hover{
+        background-color: $steel-gray;
+    }
+}
+
+//container
+.container{
+    padding: 20px;
+}
+
+//layouts
+@import './layouts/';

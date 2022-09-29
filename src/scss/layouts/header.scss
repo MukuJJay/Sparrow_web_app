@@ -1,0 +1,39 @@
+@use '../utilities/' as *;
+
+header{
+    max-height: 15vh;
+    .logo{
+        display: flex;
+        text-decoration: none;
+        .logo__icon{
+            width: 15px;
+            height: 20px;
+            background-color: $black;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .search{
+        position: relative;
+        &__icon{
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            z-index: 1;
+            left: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        &__svg{
+            filter: invert(80%) sepia(5%) saturate(139%) hue-rotate(325deg) brightness(89%) contrast(88%);
+            width: 100%;
+        }
+    }
+}
